@@ -5,7 +5,7 @@ import XCTest
 /// Translator: https://morsecode.world/international/translator.html
 final class NoReMorseTests: XCTestCase {
     
-    let m = NoReMorse()
+    let m = Morser()
     
     func testMorseToAlpha() {
         // This is an example of a functional test case.

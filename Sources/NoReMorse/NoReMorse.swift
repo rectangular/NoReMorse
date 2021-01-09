@@ -7,7 +7,7 @@
 
 import Foundation
 
-class NoReMorse {
+public class Morser {
     
     var letterSeparator: Character
     var wordSeparator: Character
@@ -15,7 +15,7 @@ class NoReMorse {
     var dot: Character
     var dash: Character
     
-    init(letterSeparator: Character = " ", wordSeparator: Character = "/", dot: Character = ".", dash: Character = "-") {
+    public init(letterSeparator: Character = " ", wordSeparator: Character = "/", dot: Character = ".", dash: Character = "-") {
         
         self.letterSeparator = letterSeparator
         self.wordSeparator = wordSeparator
@@ -23,7 +23,7 @@ class NoReMorse {
         self.dash = dash
     }
     
-    func translate(_ morse: String) -> String {
+    public func translate(_ morse: String) -> String {
         
         return parse(lex(morse))
     }
