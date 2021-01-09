@@ -1,3 +1,10 @@
+//
+//  NoReMorse.swift
+//
+//
+//  Created by Geof Crowl on 1/8/21.
+//
+
 import Foundation
 
 class NoReMorse {
