@@ -10,5 +10,5 @@ import NoReMorse
 let m = NoReMorse()
 
 // prints "hello world"
-print(m.translate('.... . .-.. .-.. --- / .-- --- .-. .-.. -..'));
+print(m.translate('.... . .-.. .-.. --- / .-- --- .-. .-.. -..'))
 ```
